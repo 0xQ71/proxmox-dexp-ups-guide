@@ -121,7 +121,7 @@ fi
 /usr/sbin/upsmon -u root
 
 # (Опционально) Имперский марш через системный динамик (apt install beep)
-# (modprobe pcspkr || true; beep -f 440 -l 500 -n -f 440 -l 500 -n -f 440 -l 500 -n -f 349 -l 350 -n -f 523 -l 150 -n -f 440 -l 500 -n -f 349 -l 350 -n -f 523 -l 150 -n -f 440 -l 1000 -n -f 659 -l 500 -n -f 659 -l 500 -n -f 659 -l 500 -n -f 698 -l 350 -n -f 523 -l 150 -n -f 415 -l 500 -n -f 349 -l 350 -n -f 523 -l 150 -n -f 440 -l 1000) &
+# (modprobe pcspkr || true; beep -f 440 -l 500 -n -f 440 -l 500 -n -f 440 -l 500 -n -f 349 -l 350 -n -f 523 -l 150 -n -f 440 -l 500 -n -f 349 -l 350 -n -f 523 -l 150 -n -f 440 -l 1000 -n -f 659 -l 500 -n -f 659 -l 500 -n -f 659 -l 500 -n -f 698 -l 350 -n -f 523 -l 150 -n -f 415 -l 500 -n -f 349 -l 350 -n -f 523 -l 150 -n -f 440 -l 1000) & # :D
 
 exit 0
 ```
